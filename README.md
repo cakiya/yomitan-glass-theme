@@ -7,3 +7,4 @@ https://github.com/bpwhelan/GameSentenceMiner/wiki/Overlay-%E2%80%90-Overview#cu
 
 todo:
 - add setup instructions
+- figure out how to bring back the scroll bar without making it look ugly on chromium

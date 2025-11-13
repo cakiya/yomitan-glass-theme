@@ -11,11 +11,14 @@ https://github.com/bpwhelan/GameSentenceMiner/wiki/Overlay-%E2%80%90-Overview#cu
 ) to work for light theme as well as various bug fixes (eg. not working on google.com)
 
 # Setup
+
 1. Navigate to `Appearance` -> `Configure custom CSS...`
 2. Copy the contents of `popup.css` into "Popup CSS"
 3. Copy the contents of `popup-outer.css` into "Popup outer CSS"
+
 > [!WARNING]
 > if you're NOT on Firefox, remove the top portion of `popup.css`
+
 this is because Firefox renders the ruby differently than chromium browsers, it's an issue with firefox. [relevant yomitan issue](https://github.com/yomidevs/yomitan/issues/1969)
 <img width="1735" height="1033" alt="image" src="https://github.com/user-attachments/assets/7b5c2a68-4094-40e6-9df3-bf5375b0edec" />
 

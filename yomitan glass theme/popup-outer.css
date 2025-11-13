@@ -1,10 +1,10 @@
-iframe.yomitan-popup[data-outer-theme="light"] {
+iframe.yomitan-popup[data-theme="light"] {
     color-scheme: light !important; /* forces light theme so it works on google.com*/
     --outer-bg: rgba(210, 210, 210, 0.85);
     --outer-border: rgba(0, 0, 0, 0.2);
 }
 
-iframe.yomitan-popup[data-outer-theme="dark"] {
+iframe.yomitan-popup[data-theme="dark"] {
     color-scheme: dark !important; /* forces dark theme so it works on google.com*/
     --outer-bg: rgba(45, 45, 45, 0.85);
     --outer-border: rgba(255, 255, 255, 0.2);

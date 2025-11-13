@@ -6,8 +6,8 @@ ruby > * {
 
 :root[data-theme="light"] {
     color-scheme: light !important; /* forces light theme so it works on google.com*/
-    --text-color: #111111;
-    --subtext-color: #333333;
+    --text-color: #202020;
+    --subtext-color: #535353;
 }
 
 :root[data-theme="dark"] {

@@ -1,4 +1,4 @@
-/* Firefox specific fix for the ruby (furigana) being too high */
+/* Firefox specific fix for the ruby (furigana) being too high compared to chrome's default */
 ruby > * {
     margin-top: -3px;
     margin-bottom: -10px;

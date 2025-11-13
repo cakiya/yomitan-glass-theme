@@ -6,7 +6,7 @@ iframe.yomitan-popup[data-outer-theme="light"] {
 
 iframe.yomitan-popup[data-outer-theme="dark"] {
     color-scheme: dark !important; /* forces dark theme so it works on google.com*/
-    --outer-bg: rgba(45, 45, 55, 0.85);
+    --outer-bg: rgba(45, 45, 45, 0.85);
     --outer-border: rgba(255, 255, 255, 0.2);
 }
 

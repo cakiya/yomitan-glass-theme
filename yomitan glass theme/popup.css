@@ -1,0 +1,59 @@
+/* Firefox specific fix for the ruby (furigana) being too high */
+ruby > * {
+    margin-top: -3px;
+    margin-bottom: -10px;
+}
+
+:root[data-theme="light"] {
+    color-scheme: light !important; /* forces light theme so it works on google.com*/
+    --text-color: #111111;
+    --subtext-color: #333333;
+}
+
+:root[data-theme="dark"] {
+    color-scheme: dark !important; /* forces dark theme so it works on google.com*/
+    --text-color: #dfdfdf;
+    --subtext-color: #acacac;
+}
+
+body {
+    background: transparent !important; 
+    color: var(--text-color); /* default text color */
+}
+
+/* furigana text */
+.headword-term > ruby > rt {
+    color: var(--subtext-color);
+}
+
+/* word text */
+.headword-term,
+.headword-term * {
+    color: var(--text-color);
+}
+
+/* pitch accent bars */
+.pronunciation-mora-line {
+    border-color: var(--subtext-color);
+}
+
+/* glossary */
+.gloss-sc-thead,
+.gloss-sc-tfoot,
+.gloss-sc-th {
+    background-color: transparent !important;
+}
+
+
+/* Hide scrollbar but keep scroll functionality */
+html, body, #content-scroll {
+    scrollbar-width: none !important;      /* Firefox */
+    -ms-overflow-style: none !important;   /* IE/Edge (legacy) */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#content-scroll::-webkit-scrollbar {
+    display: none !important;              /* Chrome/Safari/Edge */
+}
+

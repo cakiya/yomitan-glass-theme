@@ -12,16 +12,33 @@ https://github.com/bpwhelan/GameSentenceMiner/wiki/Overlay-%E2%80%90-Overview#cu
 # Setup
 
 1. Navigate to `Appearance` -> `Configure custom CSS...`
-2. Copy the contents of `popup.css` into "Popup CSS"
-3. Copy the contents of `popup-outer.css` into "Popup outer CSS"
+2. Copy the contents of `popup.css` into `Popup CSS`
+3. Copy the contents of `popup-outer.css` into `Popup outer CSS`
 
 > [!WARNING]
 > if you're NOT on Firefox, remove the top portion of `popup.css`
 
 this is because Firefox renders the ruby differently than chromium browsers, it's an issue with firefox. [relevant yomitan issue](https://github.com/yomidevs/yomitan/issues/1969)
+
 <img width="1735" height="1033" alt="image" src="https://github.com/user-attachments/assets/7b5c2a68-4094-40e6-9df3-bf5375b0edec" />
+
+# Custom Colors
+
+It's possible to use your own colors instead of the default colors for either theme. Simply enter the rgba code in `Popup outer CSS`. The 4th value (in grey) is the transparency ranging from `0.0` to `1.0`.
+
+You can use an online RGB color picker to make things easier.
+
+<img width="681" height="373" alt="image" src="https://github.com/user-attachments/assets/a1424965-5ac4-4500-9e21-053f4e794030" />
+
+Behold! The Yomitan Liquid Shit™️ theme:
+`--outer-bg: rgba(100, 50, 0, 0.4);`
+
+<img width="633" height="526" alt="image" src="https://github.com/user-attachments/assets/2fa51c87-fc89-41d6-978c-c46464ec6875" />
+
+
+
+
 
 # To-Do
 1. figure out how to bring back the scroll bar without making it look ugly on chromium
-2. make the light theme look better (lol)
 3. make it work with shadow set to None on yomitan(?)

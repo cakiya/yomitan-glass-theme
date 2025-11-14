@@ -3,7 +3,7 @@ a glass theme for yomitan.
 
 | Light Mode  | Dark Mode |
 | ------------- | ------------- |
-| <img width="659" height="539" alt="image" src="https://github.com/user-attachments/assets/fbfac77a-b361-4159-8988-d991ac157f8b" /> | <img width="683" height="543" alt="image" src="https://github.com/user-attachments/assets/a18d194e-ebdb-42b7-b2e7-8f5a178ff8a2" /> |
+| <img width="651" height="539" alt="image" src="https://github.com/user-attachments/assets/247d801a-486f-4729-ad14-a90b3c39126b" /> | <img width="677" height="562" alt="image" src="https://github.com/user-attachments/assets/38f67a21-d711-4346-9b4f-b65f9c30585c" /> |
 
 adapted from [GameSentenceMiner's wiki](
 https://github.com/bpwhelan/GameSentenceMiner/wiki/Overlay-%E2%80%90-Overview#custom-glassy-css-for-yomitan

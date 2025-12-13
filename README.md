@@ -11,9 +11,13 @@ https://github.com/bpwhelan/GameSentenceMiner/wiki/Overlay-%E2%80%90-Overview#cu
 
 # Setup
 
-1. Navigate to `Appearance` -> `Configure custom CSS...`
-2. Copy the contents of `popup.css` into `Popup CSS`
-3. Copy the contents of `popup-outer.css` into `Popup outer CSS`
+0. Turn on Advanced mode in the bottom left of Yomitan settings:
+
+<img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/667c0133-7279-497b-944a-dc23dc2d4947" />
+
+2. Navigate to `Appearance` -> `Configure custom CSS...`
+3. Copy the contents of `popup.css` into `Popup CSS`
+4. Copy the contents of `popup-outer.css` into `Popup outer CSS`
 
 > [!WARNING]
 > if you're NOT on Firefox, remove the top portion of `popup.css`
